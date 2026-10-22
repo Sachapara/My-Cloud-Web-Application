@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cloud Web Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef4ff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px #ccd5e0;
+    }
+    button {
+      background: #1769e0;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Cloud Web Application</h1>
+    <p>Welcome! My application is hosted on the cloud.</p>
+    <p>This project demonstrates cloud computing and web hosting.</p>
+    <button onclick="showMessage()">Test Application</button>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Success! The application is working correctly.";
+    }
+  </script>
+</body>
+</html>
